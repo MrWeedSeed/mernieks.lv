@@ -46,19 +46,17 @@ body {
 /*Header settings*/
 header {
 	background-color: #473a2d;
-	padding: 15px 0;
 	min-width: 1200px;
 }
 .logo {
 	width: 179px;
 	min-height: 55px;
-	float: left;
-	margin-top: 5px;
+	margin-top: 7.5px;
 	background: url(../images/logo.png) top left no-repeat;
 }
-/*.navbar {
-	float: right;
-}*/
+nav {
+  font-size: 0;
+}
 nav a {
 	font-size: 15px;
 	text-decoration: none;
@@ -562,7 +560,4 @@ textarea {
 	position: fixed;
 	right: 10px;
 	top: 90%;
-}
-.border {
-	border: 1px solid blue;
 }
