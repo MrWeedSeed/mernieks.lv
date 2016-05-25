@@ -47,6 +47,7 @@ body {
 header {
 	background-color: #473a2d;
 	min-width: 1200px;
+  padding: 15px 0;
 }
 .logo {
 	width: 179px;
