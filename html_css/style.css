@@ -56,10 +56,10 @@ header {
 	margin-top: 5px;
 	background: url(../images/logo.png) top left no-repeat;
 }
-.navbar {
+/*.navbar {
 	float: right;
-}
-.navbar a {
+}*/
+nav a {
 	font-size: 15px;
 	text-decoration: none;
 	display: inline-block;
@@ -68,7 +68,7 @@ header {
 	float: left;
 	margin-top: 10px;
 }
-.navbar a:hover {
+nav a:hover {
 	background-color: #5b4d3b;
 }
 .menu {
