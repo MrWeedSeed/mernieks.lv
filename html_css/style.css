@@ -543,7 +543,18 @@ textarea {
 }
 ::-webkit-input-placeholder {
 	color: #a28954;
-}  /*Pielikt pārējos*/
+} /* WebKit, Blink, Edge */
+:-moz-placeholder {
+  color: #a28954;
+  opacity:  1;
+} /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder {
+  color: #a28954;
+  opacity:  1;
+} /* Mozilla Firefox 19+ */
+:-ms-input-placeholder {
+  color: #a28954;
+} /* Internet Explorer 10-11 */
 .submit {
 	margin-top: 15px;
 }
